@@ -12,5 +12,10 @@ public class humain {
 	public static void parle(String unnom,String uneboissonFavorite){
 		System.out.println(unnom+" - Ah un bon verre de "+uneboissonFavorite+" ! GLOUPS !");
 	}
-
+	public String quelEstTonNom(){
+		return nom;
+	}
+	public String quelEstTaBoissonFavorite(){
+		return boissonFavorite;
+	}
 }
